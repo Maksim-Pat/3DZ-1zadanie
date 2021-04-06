@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int TicketPrice = 20;
-        int Bonus = 1;
-        int TotalBonus = TicketPrice / Bonus;
-        int FloatBonus = (int) TotalBonus;
-        System.out.println(FloatBonus);
+        long ticketPrice = 1050;
+        int mileBonus = 20;
+        long totalBonus = ticketPrice / mileBonus;
+        System.out.println(totalBonus);
     }
 }
